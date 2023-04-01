@@ -1,6 +1,8 @@
+
 # 说明文档  
 
 #### 作用 : 免去新建项目一些基础配置和扩展功能(Vuex,Router,Axios...)以及配合终端指令自动生成文件(例如：生成页面的同时自动生成路由文件并完成路由注册...)  
+#### npm：https://www.npmjs.com/package/create-vs
 
 - ### 如何安装
   ```
@@ -20,13 +22,24 @@
     - #### Js-cooklie（封装了关于对token的一些方法）
     - #### Moment.js（一个解析、验证、操作和显示日期和时间的JavaScript库,模板有示例）
     - #### Lodash（提供了很多函数式编程的工具函数）
+    - ## . . . . . .
 
 - ### 如何使用
+   -  创建pc端项目 (默认基础模板)
   ```
   vs create  <FileName>
   ```
   > filename --- 文件夹名字  
   vs create 表示创建一个pc的基础项目模板
+  
+  - 创建移动H5项目
+   ```
+   vs create-h <FileName>
+   ```
+   > failename --- 文件夹的名字
+   > create-h 表示创建一个vue2移动端的项目
+   
+   移动端模板详细文档 : https://juejin.cn/post/7216965516877971512
 
  
 - ### 终端指令
@@ -39,7 +52,7 @@
         
          > 例如 ：vs addcpn user
 
-        >![](https://upload-images.jianshu.io/upload_images/28319842-74dfe40a0125234f.png?imageMogr2/auto-orient/strip%7CimageVie/2/w/1240)
+        >![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2b045a2e1dbb4b458548dd153e036155~tplv-k3u1fbpfcp-zoom-1.image)
 
     - #### 创建pages页面组件和路由
         ```
@@ -50,7 +63,7 @@
         
         >例如：vs addpage home 
 
-        >![](https://upload-images.jianshu.io/upload_images/28319842-7cb63c8afd4a7b73.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+        >![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/59d4b7dc23fa4df5be5c9ef860b95d65~tplv-k3u1fbpfcp-zoom-1.image)
 
     - #### 创建store子模块仓库
         ```
@@ -62,7 +75,7 @@
 
        >例如 ：vs addstore Login  
 
-      >![](https://upload-images.jianshu.io/upload_images/28319842-bb0994e78a93e7f3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+      >![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5cae98f8574f4e6ba6e3799eea498964~tplv-k3u1fbpfcp-zoom-1.image)
        
     - #### 创建Api文件
       ```
@@ -73,7 +86,7 @@
 
       > 例如 : vs addapi home  
 
-      >![](https://upload-images.jianshu.io/upload_images/28319842-df924d0f60349b8a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+      >![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/28d930e4eaa042f6bb34a95c05e359ec~tplv-k3u1fbpfcp-zoom-1.image)
 
       
 
@@ -83,4 +96,4 @@
 -目前只针对vue2项目  
 -使用简单，希望能帮助到大家！！！  
 -模板项目地址：https://gitee.com/s-z-p/vue2-pc-template.git  
--巨人的肩膀：codewhy
+-巨人的肩膀：coderwhy
